@@ -17,9 +17,26 @@ I build LLM agents, RAG systems and voice AI inside production SaaS — in TypeS
 - **Full Stack Developer @ Geeks Ltd** (UK) — multi-agent document pipelines that extract legal and compliance data from scanned property records (+35% automation coverage); ScoutdAI, an LLM assistant for sports recruiters on live OPTA data; Unetix, AI-assisted payment tracking with a merchant copilot. ASP.NET Core · FastAPI · React · Databricks · Terraform.
 - Before that: ERP-grade payroll/staffing SaaS (ASP.NET Core, Angular, RabbitMQ) and freelance AI voice receptionists (Retell AI, ElevenLabs, Twilio, n8n).
 
-Most of my production work is in private client repos. The projects below are the ones I can show.
+### Production work (private repos)
 
-### Projects worth opening
+The code for these belongs to clients and employers, so it isn't public. Live products are linked.
+
+| Project | What it does | My part | Stack |
+|---|---|---|---|
+| **[MePro](https://mepro.ai)** — AI practice management for therapists | Multi-tenant SaaS: scheduling with Google Calendar sync, real-time video sessions, client portal, subscription billing, and AI session transcription that generates SOAP notes | Lead Engineer; own architecture and delivery | React 18 · TypeScript · NestJS · Prisma · Supabase · OpenAI · LangChain · AssemblyAI · LiveKit · Socket.io · Stripe · AWS S3 |
+| **AI Document Intelligence** — UK real-estate intelligence | Multi-agent pipelines that extract legal, transactional and compliance data from scanned property documents; automation coverage up 35% | Built the agent orchestration and the extraction pipelines | ASP.NET Core MVC · SQL Server · Azure Document Intelligence · AWS Bedrock · OpenAI |
+| **[Chatify](https://trychatify.com)** — SaaS talent marketplace | B2B/B2C marketplace with gamified multi-role onboarding, admin recruitment dashboard, lifecycle email automation, subscription billing, EN/FR i18n | Full-stack build | Next.js · TypeScript · NestJS · PostgreSQL · Supabase · Stripe · Klaviyo |
+| **ScoutdAI** — AI assistant for talent recruiters | Chat assistant that lets sports recruiters explore live player statistics in natural language and shortlist recruits on performance data | Backend, LLM integration, data sync | FastAPI · React · OPTA API · Databricks · Terraform |
+| **Unetix** — AI-assisted payment tracking | Merchant dashboards covering the full transaction lifecycle, plus an AI copilot merchants chat with about their payments | Backend and AI copilot | .NET · C# · React |
+| **Virtual Parking Permits** | Issues and manages digital parking permits for tenants of US residential properties | Full-stack build | Django · React · Motorola API |
+| **AI Teaching Assistant** — UK college | Assistant and notification system with RAG over course material and speech in/out | Full-stack build | ASP.NET Core · OpenAI Assistants API · RAG · TTS/STT |
+| **AI Voice Receptionists** | Voice agents that answer calls, suggest slots, book appointments and send OTP confirmations; packaged as a multi-tenant SaaS so businesses launch their own | Designed and shipped end to end (freelance) | Retell AI · ElevenLabs · Twilio · n8n · Google Calendar · WhatsApp |
+| **Enwage** — US payroll, staffing &amp; benefits SaaS | ERP-grade platform; background processing redesign cut task time 40%, data-layer work made queries 20% faster | Backend modules and performance work | ASP.NET Core Web API · Angular · RabbitMQ · EF Core · PostgreSQL |
+| **FinCan** — financial planning platform (Canada) | Consultancy and planning platform with a separate admin panel | Full-stack build | React · TypeScript · Node · Express · Supabase |
+
+### Open-source and personal projects
+
+These have public code you can read.
 
 | Project | What it is | Stack |
 |---|---|---|
@@ -32,8 +49,6 @@ Most of my production work is in private client repos. The projects below are th
 | [LeadLens](https://github.com/teeps-heisenberg/Caprae_lead_lens) | Lead ranking and prioritisation module: scores who to call first and where to spend enrichment credits | Python · FastAPI |
 | [Delivery Preferences](https://github.com/teeps-heisenberg/weel-test-fullstack-app) | Dockerised full-stack app: JWT auth, conditional form validation, AI-generated order summaries | TypeScript · Node · Postgres · Docker |
 | [Metro Bus Route Planner](https://github.com/teeps-heisenberg/Metro-Bus---Route-Planner---Backend) · [frontend](https://github.com/teeps-heisenberg/Metro-Bus---Route-Planner---Frontend) | Plans metro bus trips across Pakistani cities | FastAPI · React · TypeScript |
-
-Live products I've built or lead: [mepro.ai](https://mepro.ai) · [trychatify.com](https://trychatify.com)
 
 ### Stack
 
