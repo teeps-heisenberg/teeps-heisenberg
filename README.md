@@ -40,6 +40,7 @@ These have public code you can read.
 
 | Project | What it is | Stack |
 |---|---|---|
+| [JobHunt HQ](https://github.com/teeps-heisenberg/jobhunt-hq) | Open-source job-search kit for Claude Code: parallel scout agents, rules-based scoring with hard blockers, truthful CV tailoring with a verify list, and form filling that never clicks Submit | TypeScript · Claude Code · Next.js · Drizzle/SQLite · Playwright |
 | [KhetiAI](https://github.com/teeps-heisenberg/KhetiAI-Backend) · [frontend](https://github.com/teeps-heisenberg/KhetiAI-Frontend) | Bilingual (English/Urdu) farming assistant: voice and text chat, crop-disease diagnosis from photos | FastAPI · React · OpenAI · Whisper · OpenCV |
 | [Agentic RAG](https://github.com/teeps-heisenberg/Agentic-RAG-Assignment) | Agent that decides when to retrieve, reason in steps, and call tools; ChromaDB vector store, Sentence Transformers embeddings | Python · Gemini · ChromaDB |
 | [MCP Server on FastAPI](https://github.com/teeps-heisenberg/MCP-Server-Fast-MCP) | Wraps a FastAPI service as a Model Context Protocol server so an LLM CLI can call its endpoints as tools | Python · FastAPI · MCP |
